@@ -1,0 +1,46 @@
+[package]
+name = "system_rust"
+version = "0.1.0"
+authors = ["anonymous submitter"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mio = "0.6.20"
+mio-extras = "2.0.5"
+serde = { version = "1.0", features = ["derive"]} 
+bincode = "1.2.0"
+log = "0.4.8"
+env_logger = "0.7.1"
+clap = "2.33.0"
+rand = "0.7.2"
+rust-crypto = "0.2.36"
+petgraph = "0.4.13"
+tiny_http = "0.6"
+futures = "0.1"
+web3 = "0.11.0"
+serde_json = "1.0"
+url = "2.1.1"
+crossbeam = "0.7.3"
+ethereum-tx-sign = "3.0.1"
+ethereum-types = "0.9.2"
+hex = "0.3.1"
+secp256k1 = { version = "0.17.2", features = ["recovery"]}
+#requests = "0.0.30"
+reqwest = { version = "0.10", features = ["blocking", "json"] }
+lazy_static = "1.4.0"
+rocksdb = "0.13"
+
+heapsize = "0.4"
+rustc-hex = "2"
+byteorder = "1.0"
+bigint = "1.0"
+merkle = "1.11.0"
+ring = "*"
+
+cmt = { path = "coded_merkle_tree" }
+chain = { path = "coded_merkle_tree/chain" }
+primitives = { path = "coded_merkle_tree/primitives" }
+serialization = { path = "coded_merkle_tree/serialization" }
+serialization_derive = { path = "coded_merkle_tree/serialization_derive" }
