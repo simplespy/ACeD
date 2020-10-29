@@ -1,12 +1,12 @@
 # ACeD
 Authenticated Coded Dispersal (ACeD) is a scalable data availability oracle that interfaces between the side blockchains and the trusted blockchain. It accepts blocks from side blockchains, pushes verifiable commitments to the trusted blockchain and ensures data availability to the side blockchains.
 
-##Paper
+## Paper
 This repo includes the prototype implementation evaluated in our *ACeD: Scalable Data Availability Oracle* paper. 
 
 * Full paper: 
 
-##Build Requirements
+## Build Requirements
 
 ```
 # RUST cargo >= 1.46.0 
